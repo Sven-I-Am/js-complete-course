@@ -21,7 +21,7 @@ The courseload is divided into chapters, each dealing with a specific part of JS
    * first time working with api's
 
 ## Goal
-The goal is to get a broad basic understanding of JavScript and its use in web development. \
+The goal is to get a broad basic understanding of JavaScript and its use in web development. \
 The optional exercises give us a chance to broaden our knowledge on a chapter-related subject.
 
 ## Challenges
