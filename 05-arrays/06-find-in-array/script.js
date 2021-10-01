@@ -94,10 +94,10 @@
     }
 
     document.getElementById('run').addEventListener('click', function(){
-        let email = people.find(checkEmail);
-        let index = people.indexOf(email);
-        let result = email.email + ' ' + index;
-        console.log(result);
+        let result = people.find(checkEmail);
+        let index = people.indexOf(result);
+        let output = result.email + ' ' + index;
+        console.log(output);
     })
 
 })();
