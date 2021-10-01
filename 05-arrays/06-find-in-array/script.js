@@ -89,18 +89,15 @@
         },
     ];
 
-    // your code here
-    function logValue(name, index) {
-        console.log(name.email + ' ' + index);
-    }
-
     function checkEmail(email) {
         return (email.lastname === 'Dupont' && email.firstname === 'Jean');
     }
 
     document.getElementById('run').addEventListener('click', function(){
-        let email = people.filter(checkEmail);
-        email.forEach(logValue);
+        let email = people.find(checkEmail);
+        let index = people.indexOf(email);
+        let result = email.email + ' ' + index;
+        console.log(result);
     })
 
 })();
