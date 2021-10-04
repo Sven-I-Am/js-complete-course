@@ -18,4 +18,8 @@
     image.setAttribute("src", source);
     figure.appendChild(image);
 
+        let span = document.getElementById('source');
+        span.parentNode.removeChild(span);
+
+
 })();
