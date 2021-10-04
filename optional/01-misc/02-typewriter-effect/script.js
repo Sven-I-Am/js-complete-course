@@ -16,7 +16,7 @@
     let text = target.innerText;
     let i = 0;
     target.innerText ='';
-    let speed = 50;
+    let speed = Math.floor(Math.random() * 100) + 50;
 
     function typeWriter () {
         if (i<text.length) {
